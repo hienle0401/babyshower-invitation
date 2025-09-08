@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower Inviation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- THE INVITATION -->
+    <header class="placeholder a"></header>
+    <main>
+        <img src="baby-shower-note.jpg" alt="image">
+
+<!-- DIGITAL INFORMATION PANEL -->
+        <div class="digital-info digital-container">
+
+            <div class="row-a title">
+                <h2>Elizabeth & Dao's <br>
+                    Baby Shower</h2>
+            </div>
+
+            <div class="column-a when">
+                <div class="when">
+                    <h4>When</h4>
+                    <p>
+                        Sunday, October 12th <br>
+                        4PM
+                    </p> 
+                </div>
+
+                <div class="host-detail">
+                    <h4>Host details</h4>
+                    <p>
+                        Elizabeth Thy Thy Phan & Dao Hung Huynh <br>
+                        (856) 916 6795 
+                    </p>
+                </div>
+            </div>
+
+            <div class="column-b where">
+                <div class="where">
+                    <h4>Where</h4>
+                    <p>
+                        Ocean Harbor Restaurant <br>
+                        1023 Race St <br>
+                        Philadelphia, PA 19107
+                    </p>
+
+                    <button type="map" class="map"><a href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsSS6xLDAwN2C0UjWosLBMNks2M0o0NTcxTzFLTLICCiUaGVqaWiQnmaelGKWYJnqJ5yenJuYpZCQWJeUXKRSlFpcklhYl5pUAAFhHF-0&q=ocean+harbor+restaurant&rlz=1C5OZZY_en&oq=ocean+habor+re&gs_lcrp=EgZjaHJvbWUqEggBEC4YDRivARjHARiABBiOBTIGCAAQRRg5MhIIARAuGA0YrwEYxwEYgAQYjgUyCQgCEAAYDRiABDIJCAMQABgNGIAEMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB7SAQkxMjk1MWowajeoAgiwAgHxBYymfQO1waYB&sourceid=chrome&ie=UTF-8">Click to show on map</a></button>
+                </div>
+                
+                <div class="address-map">
+                    <p>
+                    </p>
+                </div>
+            </div>
+
+            <div class=" row-b host-note">
+                <div class="host-note">
+                    <h4>Host note</h4>
+                    <p>
+                        Hello everyone! 
+                        Please join us at our baby shower to celebrate our baby boy who is arriving in November! <br>
+                        We would love to see you all there! <br>
+                    </p>
+                    <hr>
+                    <p>
+                        Xin chào mọi người! <br>
+                        Mời mọi người cùng tham dự tiệc mừng em bé sắp chào đời của chúng tôi vào tháng 11! <br>
+                        Chúng tôi rất mong được gặp tất cả các bạn! <br>
+                    </p> 
+                    
+                </div>
+            </div>
+
+        </div>
+
+<!-- REGISTRATION FORM PANEL -->
+        <div class="registration-container">
+
+            <div class="title">
+                <h2>Registration Form</h2>
+                <h4>(Please RSVP by Octorber 5th, 2025)</h4>
+            </div>
+            <!-- Add the Web3Forms link -->
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Enter your name" class="contact-inputs" required>
+                <input type="hidden" name="access_key" value="e23eee90-af2b-47f2-b2bb-be78949aa55b">
+                <!-- DROPDOWN CONTAINER FOR YES NO, CHECK! -->
+                <div class="yes-no-container">
+                    <label for="attendance">Will you attend the event?</label>
+
+                    <select name="attendance" id="attendance" required>
+                        <option value="null" disabledd="disabled">Choose Yes or No</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+
+                </div>
+
+                <input type="text" name="quantity" placeholder="How many people will attend" class="contact-inputs">
+                <button type="submit" class="submit">Submit</button>
+            </form>
+
+        </div>
+    </main>
+    <footer class="placeholder b"></footer>
+
+</body>
+
+
+</html>
